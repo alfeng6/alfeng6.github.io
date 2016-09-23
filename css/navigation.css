@@ -1,0 +1,38 @@
+#personalLogo {
+  width: 70px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.siteContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 45px;
+}
+
+#myName {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.siteContainer a {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+.siteContainer a:hover {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.activeLink {
+  font-family: 'Quicksand', sans-serif;
+}

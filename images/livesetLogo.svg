@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="195px" height="60px" viewBox="0 0 195 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>LiveSet Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="106.593407" height="55.8518519"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="110.593407" height="59.8518519">
+            <rect x="-2" y="-2" width="110.593407" height="59.8518519" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Design-#1-Copy-4" transform="translate(-617.000000, -1000.000000)">
+            <g id="Liveset" transform="translate(503.000000, 818.000000)">
+                <g id="LiveSet-Logo" transform="translate(116.000000, 184.000000)">
+                    <text id="SET" font-family="AvenirNext-Medium, Avenir Next" font-size="42.6026605" font-weight="400" fill="#000000">
+                        <tspan x="119.649294" y="43">SET</tspan>
+                    </text>
+                    <use id="Rectangle-9" stroke="#FE0128" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                    <text id="LIVE" font-family="AvenirNext-DemiBold, Avenir Next" font-size="42.6026605" font-weight="500" fill="#FE0128">
+                        <tspan x="9.50116831" y="43">LIVE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
