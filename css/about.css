@@ -20,7 +20,7 @@
 
 #bio, #pitch {
   max-width: 1000px;
-  font-family: 'Avenir';
+  font-family: 'Avenir', Helvetica;
   font-size: 20px;
   padding: 40px;
   line-height: 1.4em;
