@@ -8,44 +8,64 @@
     <link rel="stylesheet" type="text/css" href="css/navigation.css" />
 
     <link rel="icon" type="image/png" href="images/personalLogo.png"/>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/portfolio.js"></script>
   </head>
 
   <body>
-    <div class="name">
-      <img id="personalLogo" src="images/personalLogo.svg"></img>
-      <p id="myName">Albert Feng</p>
-    </div>
-    <div class="siteContainer">
-      <a id="about" href="/about.html" class="activeLink">About</a>
-      <a id="portfolio" href="/" >Portfolio</a>
-    </div>
 
-    <div class="aboutGrid">
-      <div id="bio">
-        Welcome to my personal page! I'm Albert, a Master's student studying Computer Science at Stanford University passionate about creating
-        products and experiences with user-centered design.
+    <div class="preload">
+      <img src="images/logoGif.gif" height="300px" width="300px">
+    </div>
+    <div class="allContent">
+      <div class="name">
+        <img id="personalLogo" src="images/personalLogo.svg"></img>
+        <p id="myName">Albert Feng</p>
       </div>
-      <br>
-      <div id="pitch">
-        Want to grab some lunch and chat?
-        <a href="mailto:alfeng6@cs.stanford.edu" id="contact">Contact</a> me!
+      <div class="siteContainer">
+        <a id="about" href="/about.html" class="activeLink">About</a>
+        <a id="portfolio" href="/" > Design</a>
+      </div>
+
+      <div class="aboutGrid">
+        <div id="bio">
+          Hi there! I'm Albert, a Master's student studying Computer Science at Stanford University passionate about creating
+          products and experiences with user-centered design. After completing my Bachelor's in Computer Science at Stanford, I
+          took a year off working out of <a href="startx.com">StartX</a> on my own startup, Motif.
+
+          <br>
+          <br>
+
+          Through this experience, I was exposed to the world of raising capital (we raised a convertible note from <a href="neo.com">Neo</a>),
+          marketing/selling to multiple stakeholders, designing end-to-end company experiences (aka their experience through your customer pipeline),
+          the importance being obsessed with metrics and customer success + so much more! I have a PDF of everything I've learned along the way &mdash; ping me
+          if you'd like to take a look!
+          <br>
+          <br>
+
+          As a former StartX Founder and Lightspeed Ventures Summer Fellow with enterprise sales, product ideation and full stack experience, I'm now actively
+          looking for high impact product opportunities to pursue after I finish my Master's in March 2020. If you know of such an opportunity
+          or are interested in learning more about my experiences as a Founder and Designer, please <a href="mailto:alfeng6@cs.stanford.edu" id="contact">drop me a line</a>!
+
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="https://www.linkedin.com/in/albertfeng" target="_blank">
+          <img src="images/linkedin.svg" id="linkedinImage" class="hvr-float"></img>
+        </a>
+
+        <a href="images/Albert_Feng_Resume.pdf" target="_blank">
+          <img src="images/resume.svg" id="resumeImage" class="hvr-float">
+          </img>
+        </a>
+
+        <a href="mailto:alfeng6@stanford.edu" target="_top">
+          <img src="images/email.svg" id="emailImage" class="hvr-float">
+          </img>
+        </a>
       </div>
     </div>
 
-    <div class="links">
-      <a href="https://www.linkedin.com/in/albertfeng" target="_blank">
-        <img src="images/linkedin.svg" id="linkedinImage" class="hvr-float"></img>
-      </a>
-
-      <a href="images/Albert_Feng_Resume.pdf" target="_blank">
-        <img src="images/resume.svg" id="resumeImage" class="hvr-float">
-        </img>
-      </a>
-
-      <a href="mailto:alfeng6@stanford.edu" target="_top">
-        <img src="images/email.svg" id="emailImage" class="hvr-float">
-        </img>
-      </a>
-    </div>
   </body>
 </html>

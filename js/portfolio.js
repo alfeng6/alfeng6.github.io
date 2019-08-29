@@ -14,4 +14,19 @@ $(function() {
           }
       }
   })
+
+
+  var oldURL = document.referrer;
+  if (oldURL.includes("alfeng6.github.io") || oldURL.includes("localhost:8010")) {
+    var preloadGif = document.getElementsByClassName("preload")
+    var allContent = document.getElementsByClassName("allContent")
+    preloadGif[0].style.display = "none"
+    allContent[0].style.display = "block"
+  } else {
+    $(".preload").fadeOut(2000, function() {
+        $(".allContent").fadeIn(1000);
+    });
+  }
+
+
 });

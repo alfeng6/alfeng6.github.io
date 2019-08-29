@@ -15,7 +15,7 @@
 
 .opacityClass {
   color: white;
-  font-family: "Quicksand";
+  font-family: "Avenir";
   min-width: 300px;
   min-height: 300px;
   /*background:rgba(0,0,0,1);*/
@@ -90,7 +90,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-family: 'Quicksand';
+  font-family: 'Avenir';
   padding: 10px;
   font-size: 20px;
 }
