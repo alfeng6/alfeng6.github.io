@@ -4,15 +4,16 @@
     <title>Albert Feng</title>
 
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
     <link rel="stylesheet" type="text/css" href="css/navigation.css" />
 
+    <link rel="icon" type="image/png" href="images/personalLogo.png"/>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/portfolio.js"></script>
-    <link rel="icon" type="image/png" href="images/personalLogo.png"/>
   </head>
 
   <body>
+
     <div class="preload">
       <img src="images/logoGif.gif" height="300px" width="300px">
     </div>
@@ -22,178 +23,49 @@
         <p id="myName">Albert Feng</p>
       </div>
       <div class="siteContainer">
-        <a id="about" href="/about.html">About</a>
-        <a id="portfolio" href="/" class="activeLink">Design</a>
+        <a id="about" href="/" class="activeLink">About</a>
+        <a id="portfolio" href="/design.html" > Design</a>
       </div>
 
-      <div class="portfolioGrid">
-        <div id="farmkit" class="gridBox">
-          <img src="images/farmkitPhone.png" id="farmkitImage"></img>
-          <div class="opacityClass">
-            <p class="gridLabel">Farmkit</p>
-          </div>
-        </div>
-        <div id="upstart" class="gridBox">
-          <img src="images/upstartPhones.svg" id="upstartImage"></img>
-          <div class="opacityClass">
-            <p class="gridLabel">Upstart</p>
-          </div>
-        </div>
-        <div id="accord" class="gridBox">
-          <img src="images/accordPhone.png" id="accordImage"></img>
-          <div class="opacityClass">
-            <p class="gridLabel">Accord.io</p>
-          </div>
-        </div>
-        <div id="faired" class="gridBox">
-          <img src="images/fairedLogo.png" id="fairedImage"></img>
-          <div class="opacityClass">
-            <p class="gridLabel">FairED</p>
-          </div>
-        </div>
-        <div id="liveset" class="gridBox">
-          <img src="images/livesetLogo.svg" id="livesetImage"></img>
-          <div class="opacityClass">
-            <p class="gridLabel">LiveSet</p>
-          </div>
-        </div>
-        <div id="motif" class="gridBox">
-          <img src="images/motifLogo.svg" id="motifImage"></img>
-          <div class="opacityClass">
-            <p class="gridLabel">Motif</p>
-          </div>
+      <div class="aboutGrid">
+        <div id="bio">
+          Hi there! I'm Albert, a Master's student studying Computer Science at Stanford University passionate about creating
+          products and experiences with user-centered design. After completing my Bachelor's in Computer Science at Stanford, I
+          took a year off working out of <a href="startx.com">StartX</a> on my own startup, Motif.
+
+          <br>
+          <br>
+
+          Through this experience, I was exposed to the world of raising capital (we raised a convertible note from <a href="neo.com">Neo</a>),
+          marketing/selling to multiple stakeholders, designing end-to-end company experiences (aka their experience through your customer pipeline),
+          the importance being obsessed with metrics and customer success + so much more! I have a PDF of everything I've learned along the way &mdash; ping me
+          if you'd like to take a look!
+          <br>
+          <br>
+
+          As a former StartX Founder and Lightspeed Ventures Summer Fellow with enterprise sales, product ideation and full stack experience, I'm now actively
+          looking for high impact product opportunities to pursue after I finish my Master's in March 2020. If you know of such an opportunity
+          or are interested in learning more about my experiences as a Founder and Designer, please <a href="mailto:alfeng6@cs.stanford.edu" id="contact">drop me a line</a>!
+
         </div>
       </div>
 
+      <div class="links">
+        <a href="https://www.linkedin.com/in/albertfeng" target="_blank">
+          <img src="images/linkedin.svg" id="linkedinImage" class="hvr-float"></img>
+        </a>
 
-      <div id="farmkitModal" class="modal">
+        <a href="images/Albert_Feng_Resume.pdf" target="_blank">
+          <img src="images/resume.svg" id="resumeImage" class="hvr-float">
+          </img>
+        </a>
 
-        <div class="modal-content">
-          <div class="infoContainer">
-            <img src="images/farmkitLogo.png" class="projectLogo"></img>
-            <p>As a part of a service-learning course at Stanford University, I worked with a
-            local non-profit educational farm, Pie Ranch, to assess and lay out a plan on how
-            they could take advantage of their diverse array of organic produce to create a new
-            organization that focuses on bringing a farm-to-table meal kit type delivery service.</p>
-            <a href="portfolioFiles/FarmKit.pdf" target="_blank">
-              <div class="viewSummaryButton">View Complete Project Summary</div>
-            </a>
-            <div class="close">Close</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div id="upstartModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <div class="infoContainer">
-            <img src="images/upstartLogo.png" class="projectLogo"></img>
-            <p>As a research assistant at Stanford University, I worked alongside Assistant
-              Professor of Computer Science, Dr. Michael Bernstein, and Ph.D Candidate Ali
-              Alkhatib on a project called Upstart. The goal of the project was to understand
-              the potential benefits of collective governance - the idea that a group of workers
-              would democratically decide how to govern themselves. This idea spawned from the
-              increasing popularity of gig economy companies such as Handy, Lyft and Uber and
-              the rise of controversial labor codes and unethical treatment of workers. Thus,
-              we asked ourselves, is there a better way to govern gig workers than the status quo? </p>
-            <a href="portfolioFiles/Upstart.pdf" target="_blank">
-              <div class="viewSummaryButton">View Complete Project Summary</div>
-            </a>
-            <div class="close">Close</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div id="accordModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <div class="infoContainer">
-            <img src="images/accordLogo.png" class="projectLogo"></img>
-            <p>As a part of Stanford University's CS 147: Introduction to Human-Computer
-              Interaction Design class, I worked with 3 other students to create a product
-              from ideation and needfinding to a high fidelity iOS prototype. In our studio's
-              theme of "crowd power", we tackled the problem of group dining decisions,
-              where people may have conflicting schedules, dietary restrictions and general
-              dining preferences. By using the power of the "crowd" and a simple 3 step decision
-              making process, groups can easily figure out the best place to eat and efficiently
-              plan their time spent together. At the end, we presented our project to a crowd of
-              VCs, industry professionals, faculty and students.</p>
-            <a href="portfolioFiles/Accord.pdf" target="_blank">
-              <div class="viewSummaryButton">View Complete Project Summary</div>
-            </a>
-            <div class="close">Close</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div id="fairedModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <div class="infoContainer">
-            <img src="images/fairedLongLogo.png" class="projectLogo"></img>
-            <p>FairED is a national 501(c)(3) nonprofit organization led by college undergraduates
-              that helps improve college access for low-income and otherwise deserving high school
-              students. Students are paired with "near-peer" college coaches, who guide them through a
-              10 lesson curriculum on college admissions. I co-founded FairED Inc. in June 2014 after
-              graduating HS as I noticed that there were so many opportunities given to me that
-              should be accessable to everyone.</p>
-            <a href="http://www.faired.org" target="_blank">
-              <div class="viewSummaryButton">View FairED's Website</div>
-            </a>
-            <div class="close">Close</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div id="livesetModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <div class="infoContainer">
-            <img src="images/livesetLogo.svg" class="projectLogo"></img>
-            <p>As a part of Stanford University's CS 247: Human-Computer Interaction Design
-              Studio class, I worked with 2 other students to create a product from ideation
-              and needfinding to a high fidelity mobile web app prototype. In our studio's
-              theme of "human being", we focused on how we can defy the stereotype that technology
-              takes away from our "human-ness" and actually enhances our human experience.
-              Specifically, we created a product that enhances people's experience of listening
-              to music - one of the most human experiences we regularly engage in - by adding in a
-              unique social twist. At the end, we presented our project to a crowd of VCs,
-              industry professionals, faculty and students.</p>
-            <a href="portfolioFiles/LiveSet.pdf" target="_blank">
-              <div class="viewSummaryButton">View Complete Project Summary</div>
-            </a>
-            <div class="close">Close</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div id="motifModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <div class="infoContainer">
-            <img src="images/motifLogo.svg" id="motifLogo"></img>
-            <p>Motif helps companies sit with their customers. This is the current project I am working on with other Stanford Students.</p>
-            <a href="http://www.usermotif.com" target="_blank">
-              <div class="viewSummaryButton">View Motif's Site</div>
-            </a>
-            <div class="close">Close</div>
-          </div>
-        </div>
-
+        <a href="mailto:alfeng6@stanford.edu" target="_top">
+          <img src="images/email.svg" id="emailImage" class="hvr-float">
+          </img>
+        </a>
       </div>
     </div>
-
-
 
   </body>
 </html>
